@@ -1,0 +1,173 @@
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    min-width: 400px;
+}
+
+/* main{
+    margin-top: 30%;
+    margin-bottom: 70%;
+} */
+
+.header {
+    display: flex;
+    justify-content: end;
+    padding: 14px 0px;
+    font-size: 14px;
+    
+    .gmail, .images, .g_apps, .profile_pic {
+        margin-right: 17px;
+        color: rgba(0,0,0,.87);
+    }
+
+    .gmail, .images {
+        margin-top: 9px;
+    }
+
+    .g_apps {
+        width: 23px;
+        margin-top: 6px;
+        margin-right: 23px;
+        margin-left: 18px;
+    }
+    
+    .profile_pic {
+        border-radius: 50%;
+        width: 35px;
+    }
+}
+
+input {
+    outline: none;
+}
+
+.main {
+    padding: 20px 0px;
+    text-align: center;
+
+    .google_logo_container{
+        padding: 0px 0px 30px 0px;
+
+        .google_logo {
+            width: 320px;
+        }
+    }
+
+    
+}
+
+.search_container {
+    display: flex;
+    justify-content: center;
+
+    .search_box{
+        /* text-align: left; */
+        display: flex;
+        justify-content: space-between;
+        height: 46px;
+        border: 1px solid #dfe1e5;
+        width: 80%;
+        border-radius: 24px;
+        padding-left: 3px;
+
+        .left_n_search {
+            display: flex;
+            width: 100%;
+        }
+        #leftside {
+            margin: 11px 9px 11px 8px;
+        }
+
+        #search {
+            line-height: 40px;
+            width: 100%;
+            border: 0px solid;
+            font-size: 1.2rem;
+        }
+
+        .inside_right {
+            #rightside {
+                margin: 5px 11px 5px 0px;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+.btnwrap {
+    display: inline-flex;
+    padding: 30px 0px;
+
+    #btn1, #btn2 {
+        white-space: nowrap;
+        background-color: #f8f9fa;
+        font-size: 15px;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        padding: 11px 16px;
+        margin: 0px 3px;
+    }
+}
+
+.lang {
+    white-space: nowrap;
+    font-size: 14px;
+    color: #4d5156;
+
+    #basabali {
+        margin-left: 15px;
+    }
+
+    .lang_color {
+        color: #1a0dab;
+    }
+}
+
+footer{
+    .regionwrap {
+        padding: 15px 30px;
+        background: #f2f2f2;
+        border-bottom: 1px solid #dadce0;
+
+        #region {
+            font-size: 16px;
+            color: #70757a;
+        }
+    }
+    .navwrap {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background: #f2f2f2;
+        padding: 0px 30px;
+        font-size: 15px;
+
+        .leftnav a {
+            display: inline-block;
+            white-space: nowrap;
+            padding: 15px;
+            color: #70757a;
+        }
+        .rightnav a {
+            display: inline-block;
+            white-space: nowrap;
+            padding: 15px;
+            color: #70757a;
+        }
+    }
+}
+
+.flex {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+}
