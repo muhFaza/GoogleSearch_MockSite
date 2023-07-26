@@ -100,6 +100,9 @@ input {
         }
     }
 }
+.search_box:hover, .search_box:focus-within{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
 
 .btnwrap {
     display: inline-flex;
@@ -113,6 +116,11 @@ input {
         border-radius: 4px;
         padding: 11px 16px;
         margin: 0px 3px;
+        cursor: pointer;
+    }
+    #btn1:hover, #btn2:hover {
+        box-shadow: 0 1px 3px rgba(32,33,36,.28);
+        border: 1px solid #dfe1e5;
     }
 }
 
@@ -170,4 +178,13 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     width: auto;
+}
+
+.credwrap {
+    text-align: right;
+    background: #f2f2f2;
+    .cred a{
+        color: #70757a;
+        font-size: smaller;
+    }
 }
